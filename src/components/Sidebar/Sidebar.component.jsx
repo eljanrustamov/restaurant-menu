@@ -30,7 +30,7 @@ const Sidebar = () => {
       <Drawer
         open={isSidebarOpen}
         onClose={toggleDrawer}
-        direction="left"
+        direction="right"
         className="sidebar"
       >
         <img src={MenuIMG} alt="menu_bg" className="background" />

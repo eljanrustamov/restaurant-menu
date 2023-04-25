@@ -38,6 +38,7 @@
       align-items: center;
       flex-direction: column;
       margin-top: 1.5rem;
+      text-align: center;
       border: 1px solid var(--color-primary);
 
       .title {
@@ -60,11 +61,11 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 75px;
+      gap: 65px;
       margin-top: 6rem;
 
       .menu-category-item {
-        width: 60%;
+        width: 70%;
         padding-bottom: 40px;
         border-bottom: 1px solid var(--color-primary);
 
@@ -104,6 +105,10 @@
 
     @media (max-width: 979px) {
       padding: 65px;
+
+      .menu-list{
+        gap: 55px;
+      }
     }
 
     @media (max-width: 767px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-import HeroIMG from "../../assets/hero-bg.jpeg";
+import HeroIMG from "../../assets/hero-background.jpg";
 
 import lottieScroll from '../../assets/lotties/scroll-down.json'
 import { Player } from '@lottiefiles/react-lottie-player';
